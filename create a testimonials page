@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  border: 5px solid #ddd;
+  background-color:#8faeeb;
+  border-radius: 7px;
+  padding: 20px;
+  margin: 20px 0
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: right;
+  margin-right: 25px;
+  border-radius: 75%;
+}
+
+.container span {
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+@media (max-width: 600px) {
+  .container {
+      text-align: justifi;
+  }
+  .container img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<h1>Responsive Testimonials</h1>
+
+<div class="container">
+  <img src="https://www.pngall.com/wp-content/uploads/12/Avatar-Profile-Vector-PNG-File.png " alt="Avatar" style="width:90px">
+  <p><span>David Hamilton</span> CEO at Fross Clothing.</p>
+  <p>Samuel johnson is a greater of web designing. I recommend him as a best of webmasters.</p>
+</div>
+
+<div class="container">
+  <img src="https://cdn.vectorstock.com/i/1000x1000/72/59/female-avatar-profile-icon-round-african-american-vector-18307259.webp" alt="Avatar" style="width:90px">
+  <p><span>Ashley Millor.</span> CEO at E-wise edu .</p>
+  <p>No one is better than Samuel johnson.</p>
+</div>
+
+<div class="container">
+  <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Avatar" style="width:90px">
+  <p><span>Harry Kane.</span> CEO at Trio Pro .</p>
+  <p>This is the best place for your designing works.</p>
+</div>
+
+</body>
+</html>
